@@ -1,0 +1,120 @@
+.home__partners img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+    .home__app img {
+        padding-left: 130px;
+        padding-right: 130px;
+    }    
+}
+
+.pill-button {
+    display: inline-block;
+    position: relative;
+    padding: 0px 4px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 15px;
+    background: #13BD92;
+    border-radius: 28px;
+    color: #fff;
+    z-index: 0;
+  }
+  .pill-button-input {
+    display: none;
+    visibility: hidden;
+  }
+  .pill-button-highlight {
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    height: 22px;
+    width: 70px;
+    background: #fff;
+    border-radius: 22px;
+    z-index: 1;
+  }
+  .pill-button-selection {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    display: inline-block;
+    position: relative;
+    padding: 0.4em 0.9em;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .pill-button-selection_active {
+    color: #13BD92;
+  }
+  .pill-text-container-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* border: 2px solid red; */
+  }
+  .pill-text-container {
+    /* border: 2px solid blue; */
+
+      padding-top: 32px;
+      font-size: 19.2px;
+      font-weight: 400;
+      max-width: 650px;
+      text-align: left;
+  }
+  .italics {
+      font-style: italic;
+      font-weight: 400;
+      padding-top: 55px;
+      font-size: 16px;
+  }
+  h1.mbs {
+      font-size: 34px ;
+      letter-spacing: 0px;
+  }
+
+  .hero.mw800.center {
+      padding-top: 0px;
+  }
+
+  .home__qa {
+      margin-top: 15px;
+  }
+
+  .home__qa h2 {
+      margin-bottom: 15px;
+  }
+
+  .bullets {
+      margin-left: 0px;
+  }
+
+  .bullets .txt--lead.flex {
+      font-size: 16px !important;
+  }
+
+  .mtxl, .comparisontable {
+      margin-top: 0px !important;
+  }
+
+@media only screen and (max-width: 900px) {
+    .signupcta.second {
+        margin-left: 40px;
+        margin-right: 40px;
+    }   
+    .home__partners, #made-by {
+        display: none !important;
+    } 
+    .pill-text-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.signupcta.second form {
+    max-width: 730px;
+}
