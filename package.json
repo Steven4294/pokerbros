@@ -8,15 +8,10 @@
     "start": "node index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Steven4294/forumvigil.git"
+    "type": "git"
   },
-  "author": "steven petteruti jr",
+  "author": "jason",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Steven4294/forumvigil/issues"
-  },
-  "homepage": "https://github.com/Steven4294/forumvigil#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
